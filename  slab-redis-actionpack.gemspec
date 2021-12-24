@@ -3,12 +3,12 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'redis/actionpack/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'redis-actionpack'
+  s.name        = 'slab-redis-actionpack'
   s.version     = Redis::ActionPack::VERSION
-  s.authors     = ['Luca Guidi']
-  s.email       = ['me@lucaguidi.com']
-  s.homepage    = 'http://redis-store.org/redis-actionpack'
-  s.summary     = %q{Redis session store for ActionPack}
+  s.authors     = ['Shodai Suzuki']
+  s.email       = ['shodaiconnection@gmail.com']
+  s.homepage    = 'https://github.com/soartec-lab/redis-actionpack'
+  s.summary     = %q{Redis session store for ActionPack. redis-actionpack Gem replacement}
   s.description = "#{s.summary}. Used for storing the Rails session in Redis."
   s.license     = 'MIT'
 

@@ -8,11 +8,17 @@ For information on how to use this library in a Rails app, see the [documentatio
 
 If, for some reason, you're using `ActionDispatch` and not in a Rails app, read on to learn how to install/use this gem by itself!
 
+## `redis-action pack` replacement gem
+
+The original repository for this gem is https://github.com/redis-store/redis-actionpack.
+I wanted to upgrade my application to Rails 7, so I sent a pull request to the original repository. The commits have been merged, but no new version containing the commit has been released to RubyGems. So I decided to fork and start development to support Rails 7.
+
+
 ## Installation
 
 ```ruby
 # Gemfile
-gem 'redis-actionpack'
+gem 'slab-redis-actionpack', require: 'redis-actionpack'
 ```
 
 ## Usage
