@@ -4,6 +4,7 @@ require "action_controller/railtie"
 
 Bundler.require
 
+require "redis-actionpack"
 module Dummy
   class Application < Rails::Application
     # Disable class caching for session auto-load test
